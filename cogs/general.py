@@ -125,6 +125,7 @@ class general(commands.Cog, name="general"):
         Crée un sondage
         Create a poll where members can vote.
         """
+        await context.channel.purge(limit = 1)
         poll_title = " ".join(args)
         embed = discord.Embed(
             title="A new poll has been created!",

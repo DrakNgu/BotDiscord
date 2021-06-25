@@ -16,7 +16,7 @@ else:
 print("spectros")
 intents = discord.Intents.default()
 
-bot = Bot(command_prefix=config["bot_prefix"], intents=intents)
+bot = Bot(command_prefix=config["bot_prefix"],  case_insensitive=True)
 
 
 # The code in this even is executed when the bot is ready

@@ -53,6 +53,7 @@ class owner(commands.Cog, name="owner"):
                 description="You don't have the permission to use this command.",
                 color=config["error"]
             )
+            
             await context.send(embed=embed)
 
     @commands.command(name="embed")
