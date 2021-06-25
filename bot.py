@@ -13,7 +13,7 @@ else:
         config = yaml.load(file, Loader=yaml.FullLoader)
 
 
-
+print("spectros")
 intents = discord.Intents.default()
 
 bot = Bot(command_prefix=config["bot_prefix"], intents=intents)
