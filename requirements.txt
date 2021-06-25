@@ -1,0 +1,6 @@
+aiohttp
+asyncio
+discord.py
+random
+requests
+pyyaml
