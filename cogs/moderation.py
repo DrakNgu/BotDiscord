@@ -24,6 +24,7 @@ class moderation(commands.Cog, name="moderation"):
         """
         Expulser une personne du serveur
         Kick a user out of the server.
+        fdsl
         """
         if member.guild_permissions.administrator:
             embed = discord.Embed(
